@@ -25,20 +25,21 @@ métricas em uma tabela e um gráfico de ranking.
 
 ## Obter o Repositório
 
-```bash
-git clone https://github.com/angelakretschmann/TCC-eng-software.git
+Para executar a versão integrada do projeto, utilize o repositório principal:
 
-cd TCC-eng-software
+```bash
+git clone https://github.com/alecarvalho950/TCC.git
+cd TCC
 ```
 
 ## Estrutura de Pastas Esperada
 
-Clone o repositório e organize as imagens do dataset conforme a árvore abaixo.
-As pastas `Parasitized` e `Uninfected` devem estar diretamente dentro de
-`dados/train/`.
+Após clonar o repositório principal, organize as imagens do dataset conforme a
+árvore abaixo. As pastas `Parasitized` e `Uninfected` devem estar diretamente
+dentro de `dados/train/`.
 
 ```text
-estudos-imagens-celulares/
+TCC/
 ├── README.md
 ├── .gitignore
 ├── codigos/
@@ -194,6 +195,16 @@ largura e resolução para equilibrar desempenho e custo computacional.
 - Alejandro Carvalho
 - Ângela Kretschmann
 - Giliard Gomes Martins
+
+## Repositórios dos participantes
+
+O repositório `alecarvalho950/TCC` é a referência para a execução da versão
+integrada do projeto. Os repositórios individuais permanecem disponíveis para
+consulta do histórico e das contribuições de cada participante:
+
+- **Alejandro Carvalho — repositório principal:** [alecarvalho950/TCC](https://github.com/alecarvalho950/TCC)
+- **Ângela Kretschmann:** [angelakretschmann/TCC-eng-software](https://github.com/angelakretschmann/TCC-eng-software)
+- **Giliard Gomes Martins:** [Gili10/estudos-imagens-celulares](https://github.com/Gili10/estudos-imagens-celulares)
 
 ## Orientador
 
